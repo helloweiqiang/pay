@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>选择支付方式</title>
+		<style type="text/css">
+		body{
+			background-color: whitesmoke;
+		}
+			.container{
+				display: flex;
+				flex-direction: column;
+			}
+			.alipay,.wx,.jd,.yh,.payPal{
+				display: flex;
+				flex-direction: row;
+				justify-content:space-around;
+				align-items: center;
+				background-color: white;
+				height: 80px;
+				margin-bottom: 10px;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 style="text-align: center;">选择支付方式</h1>
+		<div class="container">
+			<div class="alipay">
+				<img src="img/alipay.png" />
+				<span>支付宝支付</span>
+			</div>
+			<div class="wx">
+				<img src="img/wx.png" />
+				<span>微信支付</span>
+
+			</div>
+			<div class="jd">
+				<img src="img/jd.png" />
+				<span>京东支付</span>
+
+			</div>
+			<div class="yh">
+				<img src="img/yh.png" />
+				<span>银联支付</span>
+
+			</div>
+			<div class="payPal">
+				<img src="img/paypal.png" />
+				<span>Paypal支付</span>
+
+			</div>
+		</div>
+	</body>
+
+</html>
